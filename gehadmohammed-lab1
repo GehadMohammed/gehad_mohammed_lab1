@@ -1,0 +1,13 @@
+dnf install git
+git config --global user.name GehadMohammed
+git config --global user.email gehad.mhmd.96@gmail.com
+git config --global core.editor.vi
+mkdir gehad-mohammed
+cd gehad-mohammed
+git init
+touch gehadmhmdlab1
+git add gehadmhmdlab1
+git commit -m "add gehadmhmdlab1 file"
+git branch -M main
+git remote add origin https://github.com/FatmaKhaled/cloud42.git
+
